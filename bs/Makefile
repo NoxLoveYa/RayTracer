@@ -16,7 +16,8 @@ clean :
 	rm -f $(OBJ)
 
 fclean : clean
-	rm $(TARGET)
+	rm -f $(NAME)
+	rm -f test.ppm
 
 test : clean all
 	clear && echo "Output." && ./$(NAME)

@@ -48,6 +48,6 @@ void generatePPM(const char* filename, const RayTracer::Camera &camera, const Ra
 
 
 int main(void) {
-    generatePPM("test.ppm", RayTracer::Camera(), RayTracer::Sphere());
+    generatePPM("test.ppm", RayTracer::Camera(), RayTracer::Sphere(Math::Point3(0, 0, -10), 0.5));
     return 0;
 }
