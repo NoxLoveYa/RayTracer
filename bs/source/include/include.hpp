@@ -15,3 +15,4 @@
 #include "Ray.hpp"
 #include "Sphere.hpp"
 #include "Rectangle.hpp"
+#include "Camera.hpp"
