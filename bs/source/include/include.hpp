@@ -9,7 +9,9 @@
 
 #include <cmath>
 #include <iostream>
+#include <fstream>
 
+#include "Color.hpp"
 #include "Vector3.hpp"
 #include "Point3.hpp"
 #include "Ray.hpp"

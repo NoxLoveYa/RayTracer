@@ -9,7 +9,7 @@
 
 namespace RayTracer
 {
-    Camera::Camera() : origin(Math::Point3(0, 0, 0)), screen(Rectangle(Math::Point3(0, 0, 0), Math::Vector3(0, 0, 0), Math::Vector3(0, 0, 0)))
+    Camera::Camera() : origin(Math::Point3(0, 0, 0)), screen(Rectangle(Math::Point3(-1, -1, -1), Math::Vector3(2, 0, 0), Math::Vector3(0, 2, 0)))
     {
     }
 
